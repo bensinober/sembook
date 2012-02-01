@@ -13,6 +13,9 @@ Sembook::Application.configure do
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
+  
+  # Compress yui CSS
+  config.assets.css_compressor = :yui
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = false

@@ -55,5 +55,10 @@ module Sembook
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Added from bootstrap
+    config.app_generators.stylesheet_engine :less
+    config.assets.initialize_on_precompile = false
+
   end
 end
